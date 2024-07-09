@@ -519,7 +519,8 @@
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    /* background: url(../img/footer-bg.png) no-repeat; */
+    background-color: var(--dark-color);
 }
 
 footer.footer-area .social h5{

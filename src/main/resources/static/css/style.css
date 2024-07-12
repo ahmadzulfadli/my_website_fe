@@ -476,16 +476,12 @@
 
 /* Start Footer Area */
 
-.footer-widget p {
-    margin-bottom: 27px;
-}
-
-p {
-    font-family: var(--helvatika);
-    font-size: 16px;
-    color: white;
+/* .paragraf-follow > p {
+    font-family: var(--helvatika); 
+    font-size: 16px; 
+    color: white; 
     line-height: 28px;
-}
+} */
 
 .animate-border {
     position: relative;
@@ -735,11 +731,11 @@ p {
 }
 
 .footer-social-link ul.social-icons li a {
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none;
 }
 
 .footer-social-link ul.social-icons li img {
-    display: block; /* Ensures image is displayed as a block element */
+    display: block;
 }
 
 /* ==========================

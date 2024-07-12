@@ -13,6 +13,7 @@
 
     <!--  font awesome icons  -->
     <!-- <link rel="stylesheet" href="./css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
 
     <!--  Magnific Popup css file  -->
@@ -49,25 +50,25 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#site-banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="#about-area">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">education</a>
+                            <a class="nav-link" href="#education-area">education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">project</a>
+                            <a class="nav-link" href="#project-area">project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">achievement</a>
+                            <a class="nav-link" href="#achievement-area">achievement</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">galery</a>
+                            <a class="nav-link" href="#galery-area">galery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
 
                     </ul>
@@ -83,7 +84,7 @@
 
 
         <!--  ======================= Start Banner Area =======================  -->
-        <section class="site-banner">
+        <section class="site-banner" id="site-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
@@ -124,7 +125,7 @@
 
         <!--  ========================= About Area ==========================  -->
 
-        <section class="about-area">
+        <section class="about-area" id="about-area">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -162,7 +163,7 @@
 
         <!--  ========================= Education Area ==========================  -->
 
-        <section class="education-area">
+        <section class="education-area" id="education-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center project-title">
@@ -242,7 +243,7 @@
 
         <!--  ====================== Start Project Area =============================  -->
 
-        <section class="project-area">
+        <section class="project-area" id="project-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center project-title">
@@ -427,7 +428,7 @@
 
         <!--  ======================== Achievement Me Area ==============================  -->
 
-        <section class="about-area mt-5">
+        <section class="about-area mt-5" id="achievement-area">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
@@ -518,7 +519,7 @@
 
         <!--  ======================= Galery Area =============================  -->
 
-        <section class="galery-area">
+        <section class="galery-area" id="galery-area">
             <div class="container">
                 <div class="galery-title pb-5">
                     <h1 class="text-uppercase title-text text-center">Galery</h1>
@@ -526,10 +527,10 @@
 
                 <div class="button-group">
                     <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                    <button type="button" data-filter=".popular">Popular</button>
-                    <button type="button" data-filter=".latest">Latest</button>
-                    <button type="button" data-filter=".following">Following</button>
-                    <button type="button" data-filter=".upcoming">Upcoming</button>
+                    <button type="button" data-filter=".popular">Work</button>
+                    <button type="button" data-filter=".latest">Events</button>
+                    <button type="button" data-filter=".following">Research</button>
+                    <button type="button" data-filter=".upcoming">College</button>
                 </div>
 
                 <div class="row grid">
@@ -658,41 +659,38 @@
 
         <!--  ========================== Contact me Area ============================  -->
 
-        <section class="subscribe-us-area">
-            <div class="container subscribe">
-                <div class="row">
-                    <div class="col-lg-12 text-center subscribe-title">
-                        <h4 class="text-uppercase">Contact Me</h4>
-                        <p class="para">Feel free to reach out to me for any inquiries or questions.</p>
+        <!-- <section class="subscribe-us-area">
+            <div class="container subscribe contact-form">
+                <form method="post">
+                    <h3>Drop Us a Message</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
+                                    value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                    value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="txtPhone" class="form-control"
+                                    placeholder="Your Phone Number *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                    style="width: 100%; height: 150px;"></textarea>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="d-sm-flex justify-content-center">
-                    <form class="w-50">
-                        <div class="row d-flex flex-row flex-wrap">
-                            <div class="col input-textbox">
-                                <input type="text" id="name" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col input-textbox">
-                                <input type="email" id="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="row d-flex flex-row flex-wrap mt-3">
-                            <div class="col-12 input-textbox">
-                                <textarea id="message" class="form-control" rows="5"
-                                    placeholder="Your Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="row d-flex flex-row flex-wrap mt-3">
-                            <div class="col">
-                                <div class="btn-submit">
-                                    <button type="submit" class="btn btn-success float-right">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                </form>
             </div>
-        </section>
+        </section> -->
 
         <!--  ========================== End Subscribe me Area ============================  -->
 
@@ -700,32 +698,170 @@
     </main>
     <!--  ======================= End Main Area ================================ -->
 
-    <footer class="footer-area">
-        <div class="container">
-            <div class="">
-                <div class="social text-center mt-2 mb-3">
-                    <h5 class="text-uppercase mb-5" style="color: var(--text-color-white); font-weight: bold;">Follow me
-                    </h5>
-                    <a href="https://github.com/ahmadzulfadli" target="_blank">
-                        <img src="https://skillicons.dev/icons?i=github" />
-                    </a>
-                    <a href="https://gitlab.com/ahmadzulfadli342" target="_blank">
-                        <img src="https://skillicons.dev/icons?i=gitlab" />
-                    </a>
-                    <a href="mailto:ahmadzulfadli342@gmail.com" target="_blank">
-                        <img src="https://skillicons.dev/icons?i=gmail" />
-                    </a>
-                    <a href="www.linkedin.com/in/ahmad-zulfadli-b33873217" target="_blank">
-                        <img src="https://skillicons.dev/icons?i=linkedin" />
-                    </a>
+    <footer id="dk-footer" class="dk-footer">
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <form>
+                            <div class="form-group position-relative">
+                                <label for="formName" class="d-block">
+                                    <i class="icon" data-feather="user"></i>
+                                </label>
+                                <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
+                            </div>
+                
+                            <div class="form-group position-relative">
+                                <label for="formEmail" class="d-block">
+                                    <i class="icon" data-feather="mail"></i>
+                                </label>
+                                <input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+                            </div>
+                
+                            <div class="form-group message">
+                                <textarea id="formMessage" class="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
+                            </div>
+                        
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary" tabIndex="-1">Send Message</button>
+                            </div>
+                    </form>
                 </div>
-                <div class="copyrights text-center">
-                    <p class="para-light">
-                        Copyright ©2024 All rights reserved | This template was develop by
-                        <a href="#"><span style="color: var(--primary-color);">Ahmad Zulfadli</span></a>
-                    </p>
+
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>Indonesia</h3>
+                                    <p>South Jakarta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>+62 822 6839 9552</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p>
+                                    Get in touch via social media or email. I'd be happy to have you contact me.
+                                </p>
+                                    
+                                <div class="footer-social-link">
+                                    <h3>Follow us</h3>
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a href="https://github.com/ahmadzulfadli" target="_blank">
+                                                <img src="https://skillicons.dev/icons?i=github" width="40" height="40" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/ahmadzulfadli" target="_blank">
+                                                <img src="https://skillicons.dev/icons?i=gitlab" width="40" height="40" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/ahmadzulfadli" target="_blank">
+                                                <img src="https://skillicons.dev/icons?i=gmail" width="40" height="40" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/ahmadzulfadli" target="_blank">
+                                                <img src="https://skillicons.dev/icons?i=linkedin" width="40" height="40" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2024, All Right Reserved Ahmad Zulfadli</span>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
         </div>
     </footer>
 
